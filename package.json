@@ -1,0 +1,57 @@
+{
+  "name": "toapi",
+  "version": "0.0.1",
+  "description": "Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon --config config/nodemon.config.json"
+  },
+  "keywords": [
+    "ToApi"
+  ],
+  "author": "Nurboldy",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bluebird": "^3.7.2",
+    "class-transformer": "^0.3.1",
+    "class-validator": "^0.12.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/bluebird": "^3.5.33",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/cors": "^2.8.9",
+    "@types/express": "^4.17.9",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/lodash": "^4.14.166",
+    "@types/node": "^14.14.14",
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "nodemon": "^2.0.6",
+    "npm": "^6.14.10",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
