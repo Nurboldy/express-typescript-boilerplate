@@ -18,7 +18,7 @@ const authMiddleware = async (req: Request, res: Response, next: NextFunction) =
       const findUser = await DB.Users.findByPk(userId);
 
       if (findUser) {
-        // req.user = findUser;
+        req.user = findUser;
         next();
       } else {
         next(new HttpException(401, 'Wrong authentication token'));
